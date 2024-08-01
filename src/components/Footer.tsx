@@ -190,10 +190,10 @@ const Footer = () => {
             fontWeight={400}
             color='white'
             fontSize='md'
-            maxW={{
-              base: '60%',
-              lg: '100%',
-            }}
+           textAlign={{
+            base:'center',
+            lg:'start'
+           }}
           >
             &copy; 2022. FixBot Technologies Limited. All Rights Reserved.
           </Text>
